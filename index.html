@@ -1,180 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WACHØ DIGITAL | Web Designer</title>
 
-  <title>Tarkue_wacho | Web Designer</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: #05070d;
-      color: white;
-      min-height: 100vh;
-    }
-
-    header {
-      padding: 20px;
-      text-align: center;
-      border-bottom: 1px solid #182238;
-    }
-
-    header h2 {
-      color: #4da6ff;
-      letter-spacing: 2px;
-    }
-
-    .hero {
-      min-height: 80vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 30px 20px;
-    }
-
-    .hero h1 {
-      font-size: 42px;
-      margin-bottom: 15px;
-    }
-
-    .hero h1 span {
-      color: #168cff;
-    }
-
-    .hero p {
-      color: #aeb8cc;
-      max-width: 500px;
-      line-height: 1.6;
-      margin-bottom: 25px;
-    }
-
-    .button {
-      display: inline-block;
-      background: #168cff;
-      color: white;
-      padding: 14px 25px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .services {
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    .services h2 {
-      margin-bottom: 25px;
-    }
-
-    .cards {
-      display: grid;
-      gap: 15px;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    .card {
-      background: #0b101c;
-      border: 1px solid #182238;
-      padding: 25px;
-      border-radius: 12px;
-    }
-
-    .card h3 {
-      color: #4da6ff;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      color: #9da8bd;
-      line-height: 1.5;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 20px;
-      border-top: 1px solid #182238;
-      color: #78849a;
-    }
-
-    @media (min-width: 700px) {
-      .cards {
-        grid-template-columns: repeat(3, 1fr);
-      }
-
-      .hero h1 {
-        font-size: 60px;
-      }
-    }
-  </style>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#05070d;color:#fff}
+header{padding:20px;text-align:center;border-bottom:1px solid #182238}
+header h2{color:#4da6ff;letter-spacing:2px}
+.hero{min-height:75vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:30px 20px}
+.hero h1{font-size:45px;margin-bottom:15px}
+.hero h1 span{color:#168cff}
+.hero p{color:#aeb8cc;max-width:520px;line-height:1.6;margin-bottom:25px}
+.button{display:inline-block;background:#168cff;color:white;padding:14px 25px;border-radius:8px;text-decoration:none;font-weight:bold}
+section{padding:55px 20px}
+section h2{text-align:center;margin-bottom:30px;font-size:30px}
+.cards{display:grid;gap:15px;max-width:1000px;margin:auto}
+.card{background:#0b101c;border:1px solid #182238;padding:25px;border-radius:14px}
+.card h3{color:#4da6ff;margin-bottom:10px}
+.card p{color:#9da8bd;line-height:1.5;margin-bottom:18px}
+.project-btn{display:inline-block;color:#fff;text-decoration:none;background:#111d33;border:1px solid #168cff;padding:10px 16px;border-radius:7px}
+footer{text-align:center;padding:30px 20px;border-top:1px solid #182238;color:#78849a}
+@media(min-width:700px){
+.cards{grid-template-columns:repeat(3,1fr)}
+.hero h1{font-size:60px}
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <h2>WACHØ DIGITAL</h2>
-  </header>
+<header>
+<h2>WACHØ DIGITAL</h2>
+</header>
 
-  <section class="hero">
-    <h1>I Build <span>Websites.</span></h1>
+<section class="hero">
+<h1>I Build <span>Websites.</span></h1>
+<p>
+I'm <strong>Tarkue_wacho</strong>, a web designer creating modern,
+clean and mobile-friendly websites for businesses, creators and individuals.
+</p>
+<a class="button" href="https://wa.me/27631602777">Let's Work Together</a>
+</section>
 
-    <p>
-      I'm <strong>Tarkue_wacho</strong>, a web designer creating
-      modern, clean and mobile-friendly websites for businesses,
-      creators and individuals.
-    </p>
+<section>
+<h2>My Projects</h2>
 
-    <a class="button"
-       href="https://wa.me/27631602777">
-      Let's Work Together
-    </a>
-  </section>
+<div class="cards">
 
-  <section class="services">
-    <h2>What I Do</h2>
+<div class="card">
+<h3>❄️ Frosty AI</h3>
+<p>AI web application project created by Tarkue_wacho.</p>
+<a class="project-btn" href="#">View Project →</a>
+</div>
 
-    <div class="cards">
+<div class="card">
+<h3>⚡ Nexora AI</h3>
+<p>Modern AI platform concept and web project.</p>
+<a class="project-btn" href="#">View Project →</a>
+</div>
 
-      <div class="card">
-        <h3>Business Websites</h3>
-        <p>
-          Professional websites that help businesses build
-          their online presence.
-        </p>
-      </div>
+<div class="card">
+<h3>🤖 WhatsApp Bot</h3>
+<p>WhatsApp automation and bot web project.</p>
+<a class="project-btn" href="#">View Project →</a>
+</div>
 
-      <div class="card">
-        <h3>Personal Websites</h3>
-        <p>
-          Clean personal websites for creators, artists and
-          individuals.
-        </p>
-      </div>
+<div class="card">
+<h3>🎬 AI Video Generator</h3>
+<p>AI-powered video generation web project.</p>
+<a class="project-btn" href="#">View Project →</a>
+</div>
 
-      <div class="card">
-        <h3>Mobile Design</h3>
-        <p>
-          Websites designed to look great on phones,
-          tablets and computers.
-        </p>
-      </div>
+</div>
+</section>
 
-    </div>
-  </section>
+<section>
+<h2>What I Do</h2>
 
-  <footer>
-    © 2026 WACHØ DIGITAL · Created by Tarkue_wacho
-  </footer>
+<div class="cards">
+
+<div class="card">
+<h3>Business Websites</h3>
+<p>Professional websites that help businesses build their online presence.</p>
+</div>
+
+<div class="card">
+<h3>Personal Websites</h3>
+<p>Clean websites for creators, artists and individuals.</p>
+</div>
+
+<div class="card">
+<h3>Mobile Design</h3>
+<p>Responsive websites designed for phones, tablets and computers.</p>
+</div>
+
+</div>
+</section>
+
+<section style="text-align:center">
+<h2>Need A Website?</h2>
+<p style="color:#aeb8cc;margin-bottom:25px">
+Let's turn your idea into a real website.
+</p>
+<a class="button" href="https://wa.me/27631602777">
+Chat On WhatsApp
+</a>
+</section>
+
+<footer>
+© 2026 WACHØ DIGITAL · Created by Tarkue_wacho
+</footer>
 
 </body>
   </html>
